@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.app-container{
+    display: flex;
+}
+
+.right-page{
+    width: 100%;
+}
