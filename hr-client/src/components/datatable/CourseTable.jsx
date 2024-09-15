@@ -18,19 +18,19 @@ import {
 
 function CourseTable({ TABLE_HEAD, TABLE_ROWS }) {
     return (
-        <section className="m-4">
+        <section className="p-4">
             <Card className="h-full w-full shadow-none">
                 <CardHeader
                     floated={false}
                     shadow={false}
                     className="rounded-none flex flex-wrap justify-between mb-4"
                 >
-                    <div>
+                    <div className="pt-5">
                         <Typography variant="h4">
                             Employee
                         </Typography>
                     </div>
-                    <div className="flex items-center w-full shrink-0 md:w-max">
+                    <div className="flex items-center w-full shrink-0 md:w-max pt-5">
                         <div className="w-full md:w-72">
                             <Input
                                 size="md"
